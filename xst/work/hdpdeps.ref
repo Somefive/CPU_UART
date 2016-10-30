@@ -1,0 +1,6 @@
+V3 3
+FL D:/Study/THU/2016Autumn/CPU/UART/Main.vhd 2016/10/30.16:52:54 P.20131013
+EN work/Main 1477817578 FL D:/Study/THU/2016Autumn/CPU/UART/Main.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Main/Behavioral 1477817579 \
+      FL D:/Study/THU/2016Autumn/CPU/UART/Main.vhd EN work/Main 1477817578
