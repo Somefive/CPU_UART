@@ -5,79 +5,13 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">state</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">RamEN</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
 </msg>
 
-<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">RamData</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; has a constant value of <arg fmt="%s" index="3">ZZZZZZZZ</arg> during circuit operation. The register is replaced by logic.
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">RamOE</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
 </msg>
 
-<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">RamEN</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
-</msg>
-
-<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">RamOE</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
-</msg>
-
-<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">RamWE</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
-</msg>
-
-<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">data_ready</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
-</msg>
-
-<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">rdn</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
-</msg>
-
-<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">tbre</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
-</msg>
-
-<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">tsre</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
-</msg>
-
-<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">wrn</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
-</msg>
-
-<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">L</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
-</msg>
-
-<msg type="info" file="Xst" num="2561" delta="old" >Always blocking tristate driving signal &lt;<arg fmt="%s" index="1">RamData</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is removed.
-</msg>
-
-<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">RamData&lt;4&gt;</arg>&gt; is never assigned.
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">RamData&lt;5&gt;</arg>&gt; is never assigned.
-</msg>
-
-<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">RamData&lt;6&gt;</arg>&gt; is never assigned.
-</msg>
-
-<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">RamData&lt;7&gt;</arg>&gt; is never assigned.
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">RST</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">mode</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SW</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">RamData&lt;0&gt;</arg>&gt; is never assigned.
-</msg>
-
-<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">RamData&lt;1&gt;</arg>&gt; is never assigned.
-</msg>
-
-<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">RamData&lt;2&gt;</arg>&gt; is never assigned.
-</msg>
-
-<msg type="warning" file="Xst" num="2565" delta="old" >Inout &lt;<arg fmt="%s" index="1">RamData&lt;3&gt;</arg>&gt; is never assigned.
-</msg>
-
-<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">state&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">RamWE</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
 </msg>
 
 </messages>

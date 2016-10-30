@@ -37,18 +37,78 @@ INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and
 
 Data Sheet report:
 -----------------
-No constraints were found to generate data for the Data Sheet Report section.
-Use the Advanced Analysis (-a) option or generate global constraints for each
-clock, its pad to setup and clock to pad paths, and a pad to pad constraint.
+All values displayed in nanoseconds (ns)
 
-Analysis completed Sun Oct 30 16:53:31 2016 
+Setup/Hold to clock CLK
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+RamData<0>  |    1.599(R)|    0.177(R)|CLK_BUFGP         |   0.000|
+RamData<1>  |    1.880(R)|    0.112(R)|CLK_BUFGP         |   0.000|
+RamData<2>  |    1.185(R)|    0.561(R)|CLK_BUFGP         |   0.000|
+RamData<3>  |    1.319(R)|    0.360(R)|CLK_BUFGP         |   0.000|
+RamData<4>  |    1.298(R)|    0.723(R)|CLK_BUFGP         |   0.000|
+RamData<5>  |    1.691(R)|    0.540(R)|CLK_BUFGP         |   0.000|
+RamData<6>  |    1.922(R)|   -0.103(R)|CLK_BUFGP         |   0.000|
+RamData<7>  |    1.979(R)|    0.118(R)|CLK_BUFGP         |   0.000|
+SW<0>       |    3.370(R)|   -1.467(R)|CLK_BUFGP         |   0.000|
+SW<1>       |    2.617(R)|   -0.865(R)|CLK_BUFGP         |   0.000|
+SW<2>       |    2.721(R)|   -0.950(R)|CLK_BUFGP         |   0.000|
+SW<3>       |    2.446(R)|   -0.727(R)|CLK_BUFGP         |   0.000|
+SW<4>       |    2.318(R)|   -0.625(R)|CLK_BUFGP         |   0.000|
+SW<5>       |    2.400(R)|   -0.690(R)|CLK_BUFGP         |   0.000|
+SW<6>       |    3.295(R)|   -1.407(R)|CLK_BUFGP         |   0.000|
+SW<7>       |    2.800(R)|   -1.013(R)|CLK_BUFGP         |   0.000|
+data_ready  |    4.324(R)|   -1.194(R)|CLK_BUFGP         |   0.000|
+mode<0>     |    7.370(R)|   -1.034(R)|CLK_BUFGP         |   0.000|
+mode<1>     |    6.619(R)|   -0.494(R)|CLK_BUFGP         |   0.000|
+tbre        |    3.924(R)|   -1.547(R)|CLK_BUFGP         |   0.000|
+tsre        |    3.637(R)|   -1.152(R)|CLK_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock CLK to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+L<0>        |    9.840(R)|CLK_BUFGP         |   0.000|
+L<1>        |    9.326(R)|CLK_BUFGP         |   0.000|
+L<2>        |    9.451(R)|CLK_BUFGP         |   0.000|
+L<3>        |    9.722(R)|CLK_BUFGP         |   0.000|
+L<4>        |    8.754(R)|CLK_BUFGP         |   0.000|
+L<5>        |    9.014(R)|CLK_BUFGP         |   0.000|
+L<6>        |    9.436(R)|CLK_BUFGP         |   0.000|
+L<7>        |    8.624(R)|CLK_BUFGP         |   0.000|
+RamData<0>  |    9.653(R)|CLK_BUFGP         |   0.000|
+RamData<1>  |   10.762(R)|CLK_BUFGP         |   0.000|
+RamData<2>  |   11.019(R)|CLK_BUFGP         |   0.000|
+RamData<3>  |    9.659(R)|CLK_BUFGP         |   0.000|
+RamData<4>  |   11.267(R)|CLK_BUFGP         |   0.000|
+RamData<5>  |    9.916(R)|CLK_BUFGP         |   0.000|
+RamData<6>  |   10.422(R)|CLK_BUFGP         |   0.000|
+RamData<7>  |   10.421(R)|CLK_BUFGP         |   0.000|
+rdn         |   10.505(R)|CLK_BUFGP         |   0.000|
+wrn         |   10.938(R)|CLK_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    5.471|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sun Oct 30 17:38:27 2016 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 185 MB
+Peak Memory Usage: 201 MB
 
 
 
